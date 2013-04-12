@@ -1,0 +1,96 @@
+
+* {
+	font-family: trebuchet ms;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	display: block;
+	margin: 15px auto 0;
+	width: 100%;
+	text-align: center;
+}
+
+.content_gen {
+	margin: 0 auto;
+	width: 620px;
+}
+
+.form_generator_container {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 620px;
+	background: #f0f0f0;
+	padding: 10px 10px 5px 10px;
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5); 
+}
+
+label {
+	display: block;
+	float: left;
+	width: 125px;
+	height: 20px;
+	padding: 5px 0 0 0;
+	font-size: 12px;
+	color: #444;
+}
+
+label.qr_label {
+	font-size: 12px;
+	color: #444;
+}
+
+h4 {
+	display: block;
+	width: 342px;
+	border-bottom: 1px solid #aaa;
+	font-size: 12px;
+}
+
+input {
+	width: 215px;
+}
+
+select {
+	width: 215px;
+}
+
+input.file {
+	width: 148px;
+}
+
+select.type {
+	width: 62px;
+}
+
+textarea.bdata, textarea.qr_btext_text, textarea.qr_sms_msg, textarea.qr_vc_NO, textarea.qr_mec_NO, textarea.qr_email_msg, textarea.bdata_matrix, textarea.bdata_pdf {
+	width: 219px;
+	margin: 0 0 10px 0;
+}
+
+input#Genrate {
+	margin: 5px 0 0 0;
+	width: 620px;
+}
+
+.result_container {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+small {
+	font-size: 12px;
+	color: #aaa;
+}

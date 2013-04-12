@@ -1,0 +1,42 @@
+Version 3.0 (21/11/2011)
+
+- DataMatrix now capable
+- PDF417 now capable
+- Option to hide data in 1D Barcodes
+
+
+
+
+
+Version 2.0 (19/10/2011)
+
+- QRCode generation no longer relies on Google API. Complete stand alone app
+- QRCodes now accept color setup
+- QRCodes now accept margin setup
+- QRCOdes now accept Error Correction Level setup
+
+
+
+
+
+
+Version 1.2 (10/10/2011)
+
+
+barcode.class.php
+- LINE #2466 - there was a comma missing on function _generate_save_qrimage ($margin = 1,)
+
+
+
+
+
+
+Version 1.1 (07/10/2011)
+
+barcode.processor.php
+- LINE #188 (geolocation was sending sms)
+
+
+barcode.class.php
+- LINE #217 - Function error was empty
+- LINE #2401, #2429, #2466 - All function related to QRCodes i've set up minimum default margin of 1

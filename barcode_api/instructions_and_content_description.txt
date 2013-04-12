@@ -1,0 +1,17 @@
+Intructions:
+
+1. Copy the examples folder to your local PHP web server
+2. Open and point your browser to the examples
+
+
+Contents:
+
+ |-  examples
+ |	|
+ |	|- barcode_api_use		(All usage examples and manual)
+ |	|- barcode_gen_ui		(PHP/Jquery Form Generator)
+ |	|- barcode_simpler_examples	(Examples with no CSS. Just generation lines)
+ |
+ |
+ |
+ |-  mainfiles				(Just the API files for your project)
